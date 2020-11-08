@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.content-nav{
+    width: 100%;
+    background-color: #747474;
+    border-bottom: 5px solid #949292;
+    position: fixed;
+}
+
+.content-nav__img{
+    
+    position: relative;
+    top: 5px;
+    left: 3px;
+}
+
+
+/** css exclusivo para index**/
+.Contenedor-ppal{
+    background-color: #f0c7ba;
+    margin: auto;
+    width: 70em;
+    padding-top: 80px;
+    height: 2100px;
+}
+    .TextoPrincipal h2{
+    font-family: 'Staatliches', cursive;
+    color: black;
+    font-size: 50px;    
+    }  
+    .TextoPrincipal {
+    padding: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    }
+    .TextoPrincipal p {
+        padding: 0px 40px;
+    }
+    .ejemplo{
+        background-color: #585656;
+        color: white;
+        width: 40em;
+        height: 65px;
+        padding: 10px;
+        margin: 0px auto;
+        outline: whitesmoke solid 5px; 
+
+    }
+    .ejemplo-2{
+        background-color: #585656;
+        color: white;
+        width: 40em;
+        height: 160px;
+        padding: 10px;
+        margin: 0px auto;
+        outline: whitesmoke solid 5px; 
+
+    }
+
+/**Titulo de Botones**/
+#TituloBotones{
+    font-family: 'Staatliches', cursive;
+    color: black;
+    font-size: 50px;
+}
+/**BOTONES DE NAVEGACION**/
+.content-info__1234{
+    height: 250px;
+    width: auto;
+    height: 275px;
+    padding: 20px 25px;
+}
+/**Sombras, Contornos, Color**/
+div div div{
+    background-color: #e09f92;
+    /**Sombras**/
+    box-shadow: black-webkit-box-shadow: 10px 10px 9px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 10px 10px 9px 0px rgba(0,0,0,0.57);
+    box-shadow: 10px 10px 9px 0px rgba(0,0,0,0.57);
+    /**Contorno**/
+    border-radius: 18px 18px 18px 0px;
+    -moz-border-radius: 18px 18px 18px 0px;
+    -webkit-border-radius: 18px 18px 18px 0px;
+    
+}
+
+#BotonTexto{
+    width:  400px;
+    height: 250px;
+    margin: 0px 65px;
+    display: inline-block;
+
+}
+#BotonTexto:hover{
+    
+    box-sizing: border-box;
+    border: 5px solid #000000;
+}
+
+#BotonTexto__img{
+    height: 110px;
+    margin: 60px 0 0 50px;
+    display: inline-block;
+}
+
+.BotonFormato{
+    width: 400px;
+    height: 250px;
+    display: inline-block;
+    margin: 0px 65px;
+    box-sizing: border-box;
+}
+.BotonFormato:hover{
+    border: 5px solid #000000;
+    box-sizing: border-box;
+}
+#BotonFormato__img{
+    height: 110px;
+    margin: 60px 0 0 10px;
+    display: inline-block;
+}
+
+#BotonTablas{
+    width: 400px;
+    height: 250px;
+    display: inline-block;
+    margin: 0px 65px;
+}
+
+#BotonTablas:hover{
+    border: 5px solid #000000;
+    box-sizing: border-box;
+}
+
+#BotonTablas__img{
+    height: 130px;
+    display: inline-block;
+    margin: 60px 0 0 30px;
+}
+
+#BotonFormularios{
+    width: 400px;
+    height: 250px;
+    display: inline-block;
+    margin: 0px 65px;
+}
+
+#BotonFormularios:hover{
+    border: 5px solid #000000;
+    box-sizing: border-box;
+}
+
+#BotonFormularios__img{
+    height: 135px;
+    width: 290px;
+    display: inline-block;
+    margin: 60px 0 0 30px;
+    position: relative;
+    left: 25px;
+}
+
+#BotonNumeracion__img{
+    height: 150px;
+    display: inline-block;
+    margin: 60px 0 0 30px;
+    
+}
+
+#texto{
+    display: inline;
+    font-size: 70px;
+    font-weight: bolder;
+    position: relative;
+    top: -50px;
+    left: 5px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #747474;
+    text-align: center;
+    height: max-content;
+}
+
+.Texto-foot{
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    }
+
+.Texto-sub{
+    font-family: 'Staatliches', cursive;
+    color: black;
+    font-size: 30px;   
+    padding: auto   ; 
+   }  
+
+    .Linea{
+        background-color: #d48a73;
+        height: 2px;
+        width: 95%;
+        margin: 20px auto;
+    }

@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/**Nav**/
+.content-nav{
+    width: 100%;
+    background-color: #747474;
+    border-bottom: 5px solid #949292;
+    position: fixed;
+    
+    
+}
+.content-nav__img{
+    position: relative;
+    top: 5px;
+    left: 3px;
+}
+
+/*fin Nav*/
+
+.Contenedor-ppal{
+    background-color: #f0c7ba;
+    padding: 30px;
+    padding-top: 80px;
+    margin: auto;
+    width: 70em;
+    height: 2100px;
+}
+    .Texto-tit{
+    font-family: 'Staatliches', cursive;
+    color: black;
+    font-size: 50px;    
+    }  
+    .Texto-sec{
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    }
+    .TextoPrincipal p {
+        padding: 0px 40px;
+    }
+    table {
+        width: 90%;
+        box-sizing: border-box;
+        margin: 0px auto 20px;
+        border-spacing: 0;
+        border-radius: 5px;
+        table-layout: fixed;
+        border-collapse: collapse;
+        
+    }
+    
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+thead{
+    background: #d48a73;
+    color: d48a73;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+tbody tr:nth-child(odd) {
+    background-color: #f0c7ba;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #d48a73;
+  }  
+  
+  th, td {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+
+  .Linea{
+    background-color: #d48a73;
+    height: 2px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #747474;
+    text-align: center;
+    height: max-content;
+}
+
+.Texto-foot{
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    }
+
+    .Texto-sub{
+        font-family: 'Staatliches', cursive;
+        color: black;
+        font-size: medium;
+        font-size: 30px;    
+       }  

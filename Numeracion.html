@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<head>
+    <title>Conoce HTML</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="EstiloNumeracion.css">
+    <link rel="shortcut icon" href="icono.ico" type="image/x-icon">
+    <!--Fuentes-->
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <!--Fin Fuentes-->
+</head>
+<body>
+    <nav class="content-nav">
+        <a href="index.html"><img class="content-nav__img" src="Banner-nav.png"></a>
+    </nav>
+    <div class="Contenedor-ppal">
+        <h2 class="Texto-tit">Viñetas y Numeracion</h2>
+        <div class="Linea"></div>
+        <h3 class="Texto-sub">Numeracion</h3>
+        <p class="Texto-sec">En la numeracion se utiliza la instruccion &lt;ol&gt; &lt;/ol&gt;
+            Cada uno de los elemntos de la lista esta predecido de la instruccion 
+            &lt;li&gt;. Estas en la instruccion &lt;ol&gt; se puede incluir el tipo
+            numeracion con el atributo "Type". Ejemplo:
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>En codigo</th>
+                    <th>En pagina</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>
+                        <ol class="Texto-sec">
+                            &lt;ol&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Elemento 1&lt;/li&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Elemento 2&lt;/li&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Elemento 3&lt;/li&gt;<br>
+                            &lt;/ol&gt;
+                        </ol>
+                    </td>
+                    <td><ol class="Texto-sec">
+                        <li>Elemento 1</li>
+                        <li>Elemento 2</li>
+                        <li>Elemento 3</li>
+                    </ol></td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+        <p class="Texto-sec">
+            Type=indica el tipo de numeracion utilizada. Si no se indica
+            se entiende que sera una lista ordenada numericamente. Los tipos posibles son:
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Type=...</th>
+                    <th>Ejemplo</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td class="Negrita">
+                        Typer="1"
+                    </td>
+                    <td>
+                        <ol type="1" class="Texto-sec">
+                            <li>Elemento 1</li>
+                            <li>Elemento 2</li>
+                            <li>Elemento 3</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Negrita">
+                        type="a"
+                    </td>
+                    <td>
+                        <ol type="a" class="Texto-sec">
+                            <li>Elemento 1</li>
+                            <li>Elemento 2</li>
+                            <li>Elemento 3</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Negrita">
+                        type="A"
+                    </td>
+                    <td> 
+                        <ol type="A" class="Texto-sec">
+                            <li>Elemento 1</li>
+                            <li>Elemento 2</li>
+                            <li>Elemento 3</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Negrita">
+                        type="i"
+                    </td>
+                    <td>
+                        <ol type="i" class="Texto-sec">
+                            <li>Elemento 1</li>
+                            <li>Elemento 2</li>
+                            <li>Elemento 3</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Negrita">
+                        type="I"
+                    </td>
+                    <td>
+                        <ol type="I" class="Texto-sec">
+                            <li>Elemento 1</li>
+                            <li>Elemento 2</li>
+                            <li>Elemento 3</li>
+                        </ol>
+                    </td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+        <div class="Linea"></div>
+        <h3 class="Texto-sub">Viñetas</h3>
+        <p class="Texto-sec">
+            Las viñetas se representan con la instruccion &lt;ul&gt;
+            &lt;/ul&gt; para delimitar la lista, y &lt;li&gt; para 
+            indicar cada uno de los elementos. En la instruccion 
+            &lt;ul&gt;.
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>En codigo</th>
+                    <th>En pagina</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>
+                        <ol class="Texto-sec">
+                            &lt;ul&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Elemento 1&lt;/li&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Elemento 2&lt;/li&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Elemento 3&lt;/li&gt;<br>
+                            &lt;/ul&gt;
+                        </ol>
+                    </td>
+                    <td><ul class="Texto-sec">
+                        <li>Elemento 1</li>
+                        <li>Elemento 2</li>
+                        <li>Elemento 3</li>
+                    </ul></td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+        <p class="Texto-sec">
+            Type=indica el tipo de viñeta utilizada. Si no se indica
+            se entiende que sera una viñeta tipo disk. Los tipos posibles son:
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Type=...</th>
+                    <th>Ejemplo</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td class="Negrita">
+                        Typer="disk"
+                    </td>
+                    <td>
+                        <ul type="disk" class="Texto-sec">
+                            <li>Elemento 1</li>
+                            <li>Elemento 2</li>
+                            <li>Elemento 3</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Negrita">
+                        type="circle"
+                    </td>
+                    <td>
+                        <ul type="circle" class="Texto-sec">
+                            <li>Elemento 1</li>
+                            <li>Elemento 2</li>
+                            <li>Elemento 3</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Negrita">
+                        type="Square"
+                    </td>
+                    <td> 
+                        <ul type="Square" class="Texto-sec">
+                            <li>Elemento 1</li>
+                            <li>Elemento 2</li>
+                            <li>Elemento 3</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+        <div class="Linea"></div>
+        <h3 class="Texto-sub">Listas Anidadas</h3>
+        <p class="Texto-sec">Puedes anidar listas para representar subelementos de un elemento de lista.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>En codigo</th>
+                    <th>En pagina</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>
+                        <ol class="Texto-sec">
+                            &lt;ul&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;item 1&lt;/li&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;item 2<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>sub-item 2.1&lt;/li&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li>sub-item 2.2&lt;/li&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;item 3&lt;/li&gt;<br>
+                            &lt;/ul&gt;
+                        </ol>
+                    </td>
+                    <td>
+                        <ul class="Texto-sec">
+                            <li>item 1</li>
+                            <li>item 2
+                              <ul>
+                                <li>sub-item 2.1</li>
+                                <li>sub-item 2.2</li>
+                              </ul>
+                            </li>
+                            <li>item 3</li>
+                          </ul>    
+                    </td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+        <div class="Linea"></div>
+    </div>
+    <footer>
+        <p class="Texto-foot">Diseñado por</p><p class="Texto-sub">Alexis Gonzalez</p>.
+     </footer>
+</body>
