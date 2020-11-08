@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Conoce HTML</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/EstiloFormularios.css">
+    <link rel="shortcut icon" href="Imagenes\icono.ico" type="image/x-icon">
+    <!--Fuentes-->
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <!--Fin Fuentes-->
+</head>
+
+<body>
+    <nav class="content-nav">
+        <a href="index.html"><img class="content-nav__img" src="imagenes/Banner-nav.png"></a>
+    </nav>
+    <div class="Contenedor-ppal">
+        <h2 class="Texto-tit">Formularios</h2>
+        <p class="Texto-sec">
+            Los formularios son el soporte en el que se integran los botones y las áreas de texto que se utilizan para
+            que los usuarios introduzcan sus datos o que puedan elegir entre varias opciones. En este apartado veremos
+            las etiquetas que se utilizan para la creación de formularios en HTML5.
+        </p>
+        <div class="Linea"></div>
+        <h3 class="Texto-sub">-Etiquetas para la creación de formularios</h3>
+        <p class="Texto-sec">
+            El principio y final de un formulario se define con las etiquetas
+            &lt;form&gt; y &lt;/form&gt;. La etiqueta &lt;form&gt; puede incluir diferentes campos que son enviados para
+            ser procesados por el
+            servidor web. HTML5 dispone de un gran número de campos como puedes ver en la siguiente tabla.
+        </p>
+        <table>
+            <caption>Etiquetas para la creación de formularios</caption>
+            <thead>
+                <tr>
+                    <th>Elemento</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>&lt;form&gt;</code></td>
+                    <td>Define un formulario.</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;fieldset&gt;</code></td>
+                    <td>Permite organizar en grupos los campos de un formulario.</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;legend&gt;</code></td>
+                    <td>Representa el título de un&nbsp;<code>&lt;fieldset&gt;</code>.</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;label&gt;</code></td>
+                    <td>Representa el título de un elemento de control de un formulario.</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;input&gt;</code></td>
+                    <td>Se usa para crear controles interactivos que reciben datos del usuario.
+                </tr>
+                <tr>
+                    <td><code>&lt;button&gt;</code></td>
+                    <td>Representa un botón.</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;option&gt;</code></td>
+                    <td>Representa una opción en un elemento <code>&lt;select&gt;</code> o
+                        <code>&lt;datalist&gt;</code>.</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;select&gt;</code></td>
+                    <td>Representa un elemento de control que permite la selección entre un conjunto de opciones
+                        <code>&lt;option&gt;</code>.</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;optgroup&gt;</code></td>
+                    <td>Representa un conjunto de opciones, agrupadas lógicamente.</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;datalist&gt;</code></td>
+                    <td>Representa un elemento de control que permite la selección entre un conjunto de opciones
+                        <code>&lt;option&gt;</code>.</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;textarea&gt;</code></td>
+                    <td>Representa un elemento de control de edición de texto multilínea.</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;output&gt;</code></td>
+                    <td>Representa el resultado de un cálculo.</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="Linea"></div>
+        <h3 class="Texto-sub">Ejemplos:</h3>
+        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
+                class="cp_embed_iframe " frameborder="0" height="360" width="100%" name="cp_embed_1" scrolling="no"
+                src="https://codepen.io/anon/embed/xvRVEZ?height=360&amp;theme-id=0&amp;slug-hash=xvRVEZ&amp;default-tab=html%2Cresult&amp;animations=run&amp;editable=&amp;embed-version=2&amp;user=anon&amp;name=cp_embed_1"
+                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
+                id="cp_embed_xvRVEZ"></iframe>
+        </div>
+        <div class="Linea"></div>
+        <h3 class="Texto-sub">-Tipos de Inputs</h3>
+        <p class="Texto-sec">
+            Algunos de los inputs mas frecuentados:
+        </p>
+        <ul class="Texto-sec">
+            <li><code>&lt;input type="button"&gt;</code></li>
+            <li><code>&lt;input type="checkbox"&gt;</code></li>
+            <li><code>&lt;input type="color"&gt;</code></li>
+            <li><code>&lt;input type="date"&gt;</code></li>
+            <li><code>&lt;input type="email"&gt;</code></li>
+            <li><code>&lt;input type="file"&gt;</code></li>
+            <li><code>&lt;input type="image"&gt;</code></li>
+            <li><code>&lt;input type="month"&gt;</code></li>
+            <li><code>&lt;input type="number"&gt;</code></li>
+            <li><code>&lt;input type="password"&gt;</code></li>
+            <li><code>&lt;input type="radio"&gt;</code></li>
+            <li><code>&lt;input type="range"&gt;</code></li>
+            <li><code>&lt;input type="search"&gt;</code></li>
+            <li><code>&lt;input type="submit"&gt;</code></li>
+            <li><code>&lt;input type="tel"&gt;</code></li>
+            <li><code>&lt;input type="text"&gt;</code></li>
+            <li><code>&lt;input type="time"&gt;</code></li>
+            <li><code>&lt;input type="url"&gt;</code></li>
+            <li><code>&lt;input type="week"&gt;</code></li>
+        </ul>
+        <div class="Linea"></div>
+        <h3 class="Texto-sub">Ejemplos:</h3>
+        <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
+                class="cp_embed_iframe " frameborder="0" height="360" width="100%" name="cp_embed_2" scrolling="no"
+                src="https://codepen.io/anon/embed/gOPGJGb?height=360&amp;theme-id=0&amp;slug-hash=gOPGJGb&amp;default-tab=html%2Cresult&amp;animations=run&amp;editable=&amp;embed-version=2&amp;user=anon&amp;name=cp_embed_2"
+                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
+                id="cp_embed_gOPGJGb"></iframe>
+        </div>
+        <div class="Linea"></div>
+        <h3 class="Texto-sub">Atributos para la validación de campos en los formularios</h3>
+        <p class="Texto-sec">
+            La validación de los datos introducidos por los usuarios en los campos de los formularios es esencial para
+            ofrecer al usuario información sobre los datos que se están solicitando. Gracias a los nuevos atributos que
+            se introdujeron en HTML5 no es necesario utilizar Javascript ya que se validan de forma automática al pulsar
+            en el botón de tipo submit. En la siguiente tabla se destacan los atributos más utilizados en los campos de
+            los formularios.
+        </p>
+        <table>
+            <caption>Atributos para la validación de campos en los formularios</caption>
+            <thead>
+                <tr>
+                    <th>Atributo</th>
+                    <th>Ejemplo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>placeholder</td>
+                    <td>placeholder=”Indica tu nombre”</td>
+                </tr>
+                <tr>
+                    <td>required</td>
+                    <td>required=”true”</td>
+                </tr>
+                <tr>
+                    <td>pattern</td>
+                    <td>pattern=”[a-z]{1,5}”</td>
+                </tr>
+                <tr>
+                    <td>min</td>
+                    <td>min=”1″</td>
+                </tr>
+                <tr>
+                    <td>max</td>
+                    <td>max=”100″</td>
+                </tr>
+                <tr>
+                    <td>step</td>
+                    <td>step=”2″ (saltos en un rango de números: 0, 2, 4…)</td>
+                </tr>
+                <tr>
+                    <td>disabled</td>
+                    <td>disabled=”true”</td>
+                </tr>
+                <tr>
+                    <td>autofocus</td>
+                    <td>autofocus=”true”</td>
+                </tr>
+                <tr>
+                    <td>autocomplete</td>
+                    <td>autocomplete=”true”</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="Linea"></div>
+        <h4 class="Texto-sub">Atributo Pattern y expresiones regulares</h4>
+        <p class="Texto-sec">El atributo pattern nos permite definir nuestras propias reglas para validar el valor de
+            entrada de los campos
+            usando expresiones regulares o regexp (contracción de las palabras inglesas regular expression).</p>
+        <p class="Texto-sec">
+            Veamos un resumen de algunos de los caracteres que nos ayudan a construir expresiones regulares:
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th><strong>Clases de caracteres</strong></th>
+                    <th></th>
+                    </t>
+            <tbody>
+                <tr>
+                    <td>.</td>
+                    <td>Cualquier carácter excepto salto de línea</td>
+                </tr>
+                <tr>
+                    <td>[abc]</td>
+                    <td>Cualquiera de los caracteres entre corchetes</td>
+                </tr>
+                <tr>
+                    <td>[^abc]</td>
+                    <td>Que NO sea cualquiera de los caracteres entre corchetes</td>
+                </tr>
+                <tr>
+                    <td>[a-g]</td>
+                    <td>Cualquier carácter entre a y g (en minúscula)</td>
+                </tr>
+                <tr>
+                    <td>(a|b)</td>
+                    <td>a o b</td>
+                </tr>
+            </tbody>
+            /<thead>
+        </table>
+        <table>
+            <thead>
+
+                <tr>
+                    <th><strong>Anclas</strong></th>
+                    <th></th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>^abc</td>
+                    <td>Comienzo de una línea</td>
+                </tr>
+                <tr>
+                    <td>abc$</td>
+                    <td>Final de una línea</td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+        <table>
+            <thead>
+                <tr>
+                    <th><strong>Caracteres específicos</strong></th>
+                    <th></th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>\w\ d \s</td>
+                    <td>Palabra, dígito, espacio en blanco</td>
+                </tr>
+                <tr>
+                    <td>\W \D \S</td>
+                    <td>Que NO sea palabra, dígito o espacio en blanco</td>
+                </tr>
+                <tr>
+                    <td>\t \n \r</td>
+                    <td>tabulador, salto de línea, retorno de carro</td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+        <table>
+            <thead>
+                <tr>
+                    <th><strong>Cuantificadores</strong></th>
+                    <th></th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>a* a+ a?</td>
+                    <td>0 o más veces, 1 o más veces, 0 o 1 vez</td>
+                </tr>
+                <tr>
+                    <td>a{5} a{2,}</td>
+                    <td>Solo 5, 2 o más</td>
+                </tr>
+                <tr>
+                    <td>a{1,3}</td>
+                    <td>Entre 1 y 3</td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+        <p class="Texto-sec">
+            Por ejemplo, vamos a definir una regla usando el atributo pattern. En este caso, queremos que el nombre de
+            usuario consista solo de letras minúsculas. Además, la longitud del nombre de usuario no debe ser mayor de
+            15
+            caracteres.
+        </p>
+        <p class="Texto-sec">
+            En RegExp, esta regla puede ser expresada como pattern=”[a-z]{1,15}”.
+        </p>
+        <div class="Linea"></div>
+        <h4 class="Texto-sub">Ejemplo:</h4>
+        <p  class="Texto-sec">En el ejemplo se muestra un formulario que solicita los siguientes datos:</p>
+        <ul class="Texto-sec">
+            <li>Nombre de 40 caracteres como máximo y sólo permite letras y números.</li>
+            <li>Código postal que admite 5 números.</li>
+            <li>Edad (entre 18 y 99 años).</li>
+        </ul>
+        <p class="Texto-sec">Además, todos los campos son obligatorios y disponen de placeholder. Además, el foco se encuentra en el
+            primer campo.&nbsp;</p>
+            <div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true"
+                class="cp_embed_iframe " frameborder="0" height="360" width="100%" name="cp_embed_3" scrolling="no"
+                src="https://codepen.io/anon/embed/ExPwBda?height=360&amp;theme-id=0&amp;slug-hash=ExPwBda&amp;default-tab=html%2Cresult&amp;animations=run&amp;editable=&amp;embed-version=2&amp;user=anon&amp;name=cp_embed_3"
+                style="width: 100%; overflow:hidden; display:block;" title="CodePen Embed" loading="lazy"
+                id="cp_embed_ExPwBda"></iframe></div>
+                <div class="Linea"></div>
+    </div>
+    <footer>
+        <p class="Texto-foot">Diseñado por</p><p class="Texto-sub">Alexis Gonzalez</p>
+     </footer>
+</body>

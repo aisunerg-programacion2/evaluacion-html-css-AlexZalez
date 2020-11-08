@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Conoce HTML</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS\EstiloTablas.css">
+    <link rel="shortcut icon" href="Imagenes\icono.ico" type="image/x-icon">
+    <!--Fuentes-->
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <!--Fin Fuentes-->
+</head>
+
+<body>
+    <nav class="content-nav">
+        <a href="index.html"><img class="content-nav__img" src="imagenes/Banner-nav.png"></a>
+    </nav>
+    <div class="Contenedor-ppal">
+        <h2 class="Texto-tit">Tablas</h2>
+        <p class="Texto-sec">
+            Una tabla no es otra cosa más que un medio de organizar datos en filas y columnas. Este concepto ha estado
+            presente en nuestra sociedad por un largo período de tiempo y ha sido adoptado por HTML en sus etapas
+            iniciales, como una forma de transmitir información que, de otro modo, no sería comprendida tan fácilmente.
+        </p>
+        <p class="Texto-sec">
+            En documentos HTML una tabla puede ser considerada, resumidamente, como un grupo de filas donde cada una
+            contiene a un grupo de celdas. Esto es conceptualmente distinto a un grupo de columnas que contiene a un
+            grupo de filas, y esta diferencia tendrá un impacto en la composición y comportamiento de la tabla.
+        </p>
+        <p class="Texto-sec">
+            Como muchas otras estructuras de HTML, las tablas son construidas utilizando elementos. En particular, una
+            tabla básica puede ser declarada usando tres elementos, a saber, &lt;table&gt; (el contenedor principal),
+            &lt;tr&gt;
+            (representando a las filas contenedoras de las celdas) y &lt;td&gt; (representando a las celdas). Dejémoslo
+            más
+            claro con un ejemplo:
+        </p>
+        <div class="Linea"></div>
+        <table id="TablaTablas">
+            <thead id="thead">
+                <tr>
+                    <th>En codigo</th>
+                    <th>En pagina</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td> <code class="Texto-sec">
+                        <span class="ln"><span class="num" data-num="1."></span><span class="ln1"><span class="tag">&lt;table<span class="atn"></span><span class="atv"></span>&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="2."></span><span class="ln2"><span class="tag">&lt;tr&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="3."></span><span class="ln1"><span class="tag">&lt;td&gt;</span>Celda 1<span class="tag">&lt;/td&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="4."></span><span class="ln2"><span class="tag">&lt;td&gt;</span>Celda 2<span class="tag">&lt;/td&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="5."></span><span class="ln1"><span class="tag">&lt;td&gt;</span>Celda 3<span class="tag">&lt;/td&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="6."></span><span class="ln2"><span class="tag">&lt;/tr&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="7."></span><span class="ln1"><span class="tag">&lt;tr&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="8."></span><span class="ln2"><span class="tag">&lt;td&gt;</span>Celda 4<span class="tag">&lt;/td&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="9."></span><span class="ln1"><span class="tag">&lt;td&gt;</span>Celda 5<span class="tag">&lt;/td&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="10."></span><span class="ln2"><span class="tag">&lt;td&gt;</span>Celda 6<span class="tag">&lt;/td&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="11."></span><span class="ln1"><span class="tag">&lt;/tr&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="12."></span><span class="ln2"><span class="tag">&lt;/table&gt;</span></span></span><br>
+                    </code></td>
+                    <td>
+                        <table id="tbody">
+                            <tr>
+                                <td>Celda 1</td>
+                                <td>Celda 2</td>
+                                <td>Celda 3</td>
+                            </tr>
+                            <tr>
+                                <td>Celda 4</td>
+                                <td>Celda 5</td>
+                                <td>Celda 6</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+        <div class="Linea"></div>
+        <h3 class="Texto-sub">Celdas Encabezado</h3>
+        <p class="Texto-sec">
+            Ahora que ya hemos tratado la estructura básica de una tabla, es hora de comenzar a crear tablas más útiles.
+            Una celda de encabezado es un tipo especial de celda utilizada para organizar y categorizar otras celdas en la
+            tabla. Dicho esto, es diícil imaginar una tabla donde una celda de encabezado no tenga utilidad. Casi cualquier
+            tabla puede beneficiarse de un grupo de celdas de encabezado bien ubicado.
+        </P>
+        <p class="Texto-sec">
+            En el siguiente ejemplo, construiremos una tabla para mostrar información acerca del clima en los próximos días.
+            Aquí, las celdas de encabezado, representadas por el elemento th, son ubicadas en la primera fila de la tabla,
+            encima de las celdas comunes.
+        </p>
+        <div class="Linea"></div>
+        <table id="TablaTablas">
+            <thead id="thead">
+                <tr>
+                    <th>En codigo</th>
+                    <th>En pagina</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td> 
+                        <code class="Texto-sec">
+                        <span class="ln"><span class="num" data-num="1."></span><span class="ln1"><span class="tag">&lt;table<span class="atn"></span><span class="atv"></span>&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="2."></span><span class="ln2"><span class="tag">&lt;tr&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="3."></span><span class="ln1"><span class="tag">&lt;th&gt;</span>Hoy<span class="tag">&lt;/th&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="4."></span><span class="ln2"><span class="tag">&lt;th&gt;</span>Mañana<span class="tag">&lt;/th&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="5."></span><span class="ln1"><span class="tag">&lt;th&gt;</span>Martes<span class="tag">&lt;/th&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="6."></span><span class="ln2"><span class="tag">&lt;/tr&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="7."></span><span class="ln1"><span class="tag">&lt;tr&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="8."></span><span class="ln2"><span class="tag">&lt;td&gt;</span>Soleado<span class="tag">&lt;/td&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="9."></span><span class="ln1"><span class="tag">&lt;td&gt;</span>Mayormente soleado<span class="tag">&lt;/td&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="10."></span><span class="ln2"><span class="tag">&lt;td&gt;</span>Parcialmente nublado<span class="tag">&lt;/td&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="11."></span><span class="ln1"><span class="tag">&lt;/tr&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="12."></span><span class="ln2"><span class="tag">&lt;tr&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="13."></span><span class="ln1"><span class="tag">&lt;td&gt;</span>19°C<span class="tag">&lt;/td&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="14."></span><span class="ln2"><span class="tag">&lt;td&gt;</span>17°C<span class="tag">&lt;/td&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="15."></span><span class="ln1"><span class="tag">&lt;td&gt;</span>12°C<span class="tag">&lt;/td&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="16."></span><span class="ln2"><span class="tag">&lt;/tr&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="17."></span><span class="ln1"><span class="tag">&lt;tr&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="18."></span><span class="ln2"><span class="tag">&lt;td&gt;</span>E 13 km/h<span class="tag">&lt;/td&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="19."></span><span class="ln1"><span class="tag">&lt;td&gt;</span>E 11 km/h<span class="tag">&lt;/td&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="20."></span><span class="ln2"><span class="tag">&lt;td&gt;</span>S 16 km/h<span class="tag">&lt;/td&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="21."></span><span class="ln1"><span class="tag">&lt;/tr&gt;</span></span></span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ln"><span class="num" data-num="22."></span><span class="ln2"><span class="tag">&lt;/table&gt;</span></span></span><br>
+                        </code></td>
+                    <td>
+                        <table>
+                            <thead id="Encabezado">
+                                <tr>
+                                    <th>Hoy</th>
+                                    <th>Mañana</th>
+                                    <th>Martes</th>
+                                </tr>
+                            <tbody id="Cuerpo">
+                                <tr>
+                                    <td>Soleado</td>
+                                    <td>Mayormente soleado</td>
+                                    <td>Parcialmente nublado</td>
+                                </tr>
+                                <tr>
+                                    <td>19°C</td>
+                                    <td>17°C</td>
+                                    <td>12°C</td>
+                                </tr>
+                                <tr>
+                                    <td>E 13 km/h</td>
+                                    <td>E 11 km/h</td>
+                                    <td>S 16 km/h</td>
+                                </tr>
+                            </tbody>
+                            </thead>
+                        </table>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+        <div class="Linea"></div>        
+    </div>
+    <footer>
+        <p class="Texto-foot">Diseñado por</p><p class="Texto-sub">Alexis Gonzalez</p>.
+     </footer>
+</body>
+
+
